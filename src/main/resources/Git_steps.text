@@ -30,3 +30,6 @@ git remote set-url origin https://github.com/lingeswaranselvaraj/spring-Boot.git
 
 ## Push the code to git Hub
 git push origin master
+
+##Git Revert & Reset
+https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/
