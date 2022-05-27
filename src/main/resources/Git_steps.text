@@ -34,6 +34,11 @@ git push origin master
 ##Git Revert & Reset
 https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/
 
+git reset --hard a687f74e64feebe2e7f3ea6b70fe2b32d8ccd176
+git add .
+git commit -m "This is a new commit for what I originally planned to be amended"
+git push -f origin main
+
 ##to see the logs in commit
 git log
 
