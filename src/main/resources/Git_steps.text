@@ -1,0 +1,32 @@
+git --version
+
+## For initializining
+git init
+
+## For Adding the code to staging
+git add .
+
+## For Committing the code to local git
+git add .
+
+## To Check Git branches
+git branch
+
+## If username & password are wrong then input below
+git config --global --unset credential.helper
+git config credential.helper store
+
+##To add remote origin
+git remote add origin https://github.com/lingeswaranselvaraj/spring-Boot.git
+
+git remote -v
+origin  https://github.com/lingeswaranselvaraj/spring-Boot.git (fetch)
+origin  https://github.com/lingeswaranselvaraj/spring-Boot.git (push) 
+
+##To add remote url
+git remote set-url origin https://github.com/lingeswaranselvaraj/spring-Boot.git
+
+##create a folder from GitHub
+
+## Push the code to git Hub
+git push origin master
