@@ -2,6 +2,8 @@ package com.springboot.java.student;
 
 import java.time.LocalDate;
 
+import org.springframework.stereotype.Repository;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -10,7 +12,8 @@ import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
 @Entity
-@Table
+@Table(name = "student")
+@Repository
 public class student {
     @Id
     @SequenceGenerator(
